@@ -6,10 +6,9 @@ class WorldTime {
   String time = ''; // time in that location
   String flag; // url to an asset flag icon
   String url; // location url
-  bool isDaytime; // true or false if daytime or not
+  bool isDaytime = true ;// true or false if daytime or not
 
-  WorldTime({required this.location, required this.flag, required this.url, required this.isDaytime
-   });
+  WorldTime({required this.location, required this.flag, required this.url});
 
   Future<void> getTime() async {
     try {

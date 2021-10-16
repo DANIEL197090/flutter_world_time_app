@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:world_time_app/pages/services/world_time.dart';
+import 'package:world_time_app/services/world_time.dart';
 
 class Home extends StatefulWidget {
 
